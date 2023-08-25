@@ -44,9 +44,9 @@ product: {
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
-| `actionId` | string | Yes | A unique ID assigned to the action. The recommended format is `<extensionId>::<actionName>` |
-| `confirm.message` | string | No | The message displayed on the confirmation dialog for a mass action |
-| `confirm.title` | string | No | The title of a dialog that confirms the mass action |
-| `label` | string | Yes | An Action label to display in the Mass Actions grid |
-| `path` | string | Yes | The relative path in the application to redirect to the action. The URL will be appended with a query of selected `productIds` |
+| `actionId` | string | Yes | A unique ID assigned to the action. The recommended format is `<extensionId>::<actionName>`. |
+| `confirm.message` | string | No | The message displayed on the confirmation dialog for a mass action. |
+| `confirm.title` | string | No | The title of a dialog that confirms the mass action. |
+| `label` | string | Yes | An Action label to display in the Mass Actions grid. |
+| `path` | string | Yes | The relative path in the application to redirect to the action. The URL will be appended with a query of selected `productIds`. |
 | `type` | string | Yes | A unique ID that identifies the type of the action. |
